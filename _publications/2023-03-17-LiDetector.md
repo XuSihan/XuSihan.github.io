@@ -2,10 +2,10 @@
 title: "LiDetector: License Incompatibility Detection for Open Source Software."
 collection: publications
 permalink: /publication/2023-03-17-LiDetector
-excerpt: 'This paper is about license incompatibility detection.'
+excerpt: 'This paper is about license incompatibility detection for open source software.'
 date: 2023-03-17
-venue: 'ACM TOSEM'
-# paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+venue: 'ACM Transactions on Software Engineering and Methodology'
+paperurl: 'http://academicpages.github.io/files/paper11-TOSEM2023.pdf'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about license incompatibility detection. (Add paper abstract later)
+Open-source software (OSS) licenses dictate the conditions which should be followed to reuse, distribute, and modify the software. Apart from widely-used licenses such as the MIT License, developers are also allowed to customize their own licenses (called custom licenses), whose descriptions are more flexible. The presence of such various licenses imposes challenges to understanding licenses and their compatibility. To avoid financial and legal risks, it is essential to ensure license compatibility when integrating third-party packages or reusing code accompanied with licenses. In this work, we propose LiDetector, an effective tool that extracts and interprets OSS licenses (including both official licenses and custom licenses), and detects license incompatibility among these licenses. Specifically, LiDetector introduces a learning-based method to automatically identify meaningful license terms from an arbitrary license and employs Probabilistic Context-Free Grammar (PCFG) to infer rights and obligations for incompatibility detection. Experiments demonstrate that LiDetector outperforms existing methods with 93.28% precision for term identification, and 91.09% accuracy for right and obligation inference, and can effectively detect incompatibility with a 10.06% FP rate and 2.56% FN rate. Furthermore, with LiDetector, our large-scale empirical study on 1,846 projects reveals that 72.91% of the projects are suffering from license incompatibility, including popular ones such as the MIT License and the Apache License. We highlighted lessons learned from the perspectives of different stakeholders and made all related data and the replication package publicly available to facilitate follow-up research.
